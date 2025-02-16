@@ -1,1 +1,1 @@
-# FedoseevaT_15apr1985
+API и UI-тесты функциональности корзины интернет-магазина https://altaivita.ru/.
