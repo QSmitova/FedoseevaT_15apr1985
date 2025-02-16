@@ -1,1 +1,1 @@
-# FedoseevaT_15apr1985
+Коллекция Postman для смоук-теста корзины https://altaivita.ru/
