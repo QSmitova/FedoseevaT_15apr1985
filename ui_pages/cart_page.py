@@ -35,3 +35,12 @@ class CartPage(BasePage):
     @allure.step("Получение текста результата общей стоимости")
     def get_total_amount_text(self) -> str:
         return self.find_total_amount().text
+
+
+ #def find_cart_delete(self) -> WebElement:
+        #return self.find_element(By.CSS_SELECTOR, ".basket__list .basket__delete i.fal")
+
+        #def cart_delete(self):
+            #delete_btn = self.find_cart_delete()
+            #with allure.step("Нажатие на кнопку удаление товара"):
+                #delete_btn.click()

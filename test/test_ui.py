@@ -28,6 +28,9 @@ def test_add_to_cart(main_ui_page, search_ui_page, cart_ui_page):
     with allure.step("Проверка, что в корзину добавлен товар"):
         assert len(cart_ui_page.find_cart_items()) > 0
 
+    cart_ui_page.cart_delete()
+
+
 
 @allure.title("Корзина")
 @allure.description("Тест на удаление товара из корзины")
