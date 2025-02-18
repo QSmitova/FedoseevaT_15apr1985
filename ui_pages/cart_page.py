@@ -17,7 +17,7 @@ class CartPage(BasePage):
 
     @allure.step("Поиск кнопки удаления товара из корзины")
     def find_cart_delete(self) -> WebElement:
-        return self.find_element(By.CSS_SELECTOR, ".basket__list .basket__delete i.fal")
+        return self.find_element(By.CSS_SELECTOR, "div[class='basket__delete js-item-delete'] i[class='fal fa-times']")
 
     @allure.step("Удаление товара из корзины")
     def cart_delete(self):

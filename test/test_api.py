@@ -9,7 +9,7 @@ import pytest
 def test_add_to_cart(cart_api):
     cart_api.delete_from_cart(2858)
 
-    assert cart_api.add_to_cart(2858, 1) == 4.92
+    assert cart_api.add_to_cart(2858, 1) == 4.86
 
 
 @allure.title("Корзина")
